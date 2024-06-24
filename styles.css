@@ -1,0 +1,55 @@
+/* body styling */
+body {
+    background-color: rgb(210, 252, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: solid lightgrey 1px;
+    border-radius: 15px;
+}
+/* complete alarm clock container styling */
+.container1{
+    border: 2px solid black; 
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+/* Time display styling */
+.clock {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: black;
+    border: solid lightgrey 1px;
+    border-radius: 15px;
+    background-color: darkgray;
+}
+/* Alarms list styling */
+.alarm-list {
+    margin-top: 2rem;
+    background-color:rgb(180, 233, 250);
+    color: lightcoral;
+}
+/* Buttons styling */
+.btn {
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-danger {
+    background-color: red;
+    color: white;
+}
+/* Alarms set in alarms list styling */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: lightgoldenrodyellow; 
+}
